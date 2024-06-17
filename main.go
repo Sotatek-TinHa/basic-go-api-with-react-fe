@@ -18,7 +18,7 @@ import (
 type Todo struct {
 	ID        primitive.ObjectID `json:"_id,omitempty" bson:"_id,omitempty"`
 	Completed bool               `json:"completed"`
-	Deleted bool               	 `json:"deleted"`
+	Deleted   bool               `json:"deleted"`
 	Body      string             `json:"body"`
 }
 
